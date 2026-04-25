@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4b1101e31b91964f8b8d78ad70b75f7, type: 3}
+  m_Name: CA_Model_v 5
+  m_EditorClassIdentifier: 
+  modelName: 
+  agricultureResistance: 0.85
+  shrublandResistance: 0.75
+  forestResistanceMultiplier: 0.2
+  residentialUrbanDensityWeight: 0.05
+  residentialRoadWeightR1: 0.04
+  residentialRoadWeightR2: 0.025
+  residentialIndustrialWeight: 0.015
+  residentialCenterWeight: 0.015
+  residentialWaterWeight: 0.005
+  denseUrbanDensityWeight: 0.015
+  denseNearbyDenseWeight: 0.03
+  denseCenterWeight: 0.01
+  residentialMaxProbability: 0.2
+  denseMaxProbability: 0.08
+  industrialMaxProbability: 0.08

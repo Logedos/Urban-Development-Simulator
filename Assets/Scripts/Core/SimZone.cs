@@ -1,0 +1,15 @@
+public enum SimZone
+{
+    URBAN_DENSE,
+    URBAN_RESIDENTIAL,
+    COMMERCIAL,
+    INDUSTRIAL,
+    TRANSPORT_INFRA,
+    GREEN_PUBLIC,
+    AGRICULTURE,
+    FOREST,
+    SHRUBLAND,
+    WATER,
+    BARE_OTHER,
+    NODATA
+}

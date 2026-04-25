@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0ebbf9ebb9a459b91c983c10a91a973, type: 3}
+  m_Name: CA_Model_v 9
+  m_EditorClassIdentifier: 
+  modelName: Model 9
+  agricultureToResidentialThreshold: 0.74
+  shrublandToResidentialThreshold: 0.69
+  bareToResidentialThreshold: 0.66
+  agricultureToCommercialThreshold: 0.82
+  bareToCommercialThreshold: 0.74
+  residentialToCommercialThreshold: 0.84
+  agricultureToIndustrialThreshold: 0.86
+  bareToIndustrialThreshold: 0.78
+  residentialToDenseThreshold: 0.88
+  residentialIndustryBufferRadius: 1
+  industrialResidentialConflictCountR1: 2
+  industrialResidentialConflictCountR2: 6
+  forestPressureThreshold: 0.62
+  residentialLocalDensityWeight: 0.42
+  residentialFrontWeight: 0.2
+  residentialGapFillBonus: 0.12
+  residentialLayerBonus: 0.1
+  residentialTwoSidedBonus: 0.1
+  residentialRoadBonusR1: 0.08
+  residentialRoadBonusR2: 0.04
+  residentialCenterBonus: 0.07
+  residentialWaterBonus: 0.03
+  commercialRoadBonusR1: 0.2
+  commercialRoadBonusR2: 0.1
+  commercialClusterBonus: 0.18
+  commercialCorridorBonus: 0.16
+  commercialUrbanSupportWeight: 0.26
+  commercialCenterBonus: 0.1
+  industrialRoadBonusR1: 0.22
+  industrialRoadBonusR2: 0.12
+  industrialClusterBonus: 0.2
+  industrialBeltBonus: 0.16
+  industrialOuterBonus: 0.12
+  industrialWaterBonus: 0.08
+  denseAdjacencyBonus: 0.26
+  denseCoreBonus: 0.18
+  denseCommercialBonus: 0.1
+  denseCenterBonus: 0.08
+  denseUrbanDensityWeight: 0.28

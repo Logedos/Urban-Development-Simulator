@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2219abb493864b64b51591b44d0f34a1, type: 3}
+  m_Name: CA_Model_v 8
+  m_EditorClassIdentifier: 
+  modelName: 
+  residentialThreshold: 0.62
+  shrubResidentialThreshold: 0.58
+  residentialRoadBonus: 0.08
+  residentialGapFillBonus: 0.12
+  residentialLayerBonus: 0.1
+  residentialCenterBonus: 0.08
+  denseThreshold: 0.78
+  denseAdjacencyBonus: 0.22
+  denseCommercialBonus: 0.12
+  denseCenterBonus: 0.1
+  commercialThreshold: 0.72
+  commercialRoadBonus: 0.18
+  commercialClusterBonus: 0.18
+  commercialCenterBonus: 0.12
+  industrialThreshold: 0.74
+  industrialRoadBonus: 0.2
+  industrialClusterBonus: 0.2
+  industrialOuterBonus: 0.12
+  forestPressureThreshold: 0.55
+  residentialIndustryBufferR1: 1
+  residentialIndustryBufferR2Count: 3
